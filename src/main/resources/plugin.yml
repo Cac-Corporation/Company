@@ -1,0 +1,16 @@
+name: Company
+version: '${project.version}'
+main: com.cactt4ck.company.Main
+api-version: 1.18
+prefix: Company
+load: STARTUP
+authors: [ CacTt4ck ]
+description: Permet la création d'entreprise.
+website: https://github.com/CacTt4ck
+
+commands:
+  company:
+    description: Main command about company.
+    usage: /<command> <info|create|leave|invite|kick|list|member>
+    permission: company.company
+    permission-message: Sorry but you don't have permission to use this command.
